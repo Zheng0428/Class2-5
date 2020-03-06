@@ -7,7 +7,7 @@ int main()
 {
 	float histgram[256];
 	int Pixels[256];
-	cv::Mat srcMat = imread("D:\\a\\b.jpg", 0);
+	cv::Mat srcMat = imread("D:\\a\\c.jpg", 0);
 	cv::Mat dispMat = imread("D:\\a\\h.png");
 	int height = srcMat.rows;
 	int width = srcMat.cols;
